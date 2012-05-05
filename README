@@ -1,0 +1,24 @@
+-----------------------------------------------------------------------
+			README
+					Written by BoYu
+					boyu2011@gmail.com
+-----------------------------------------------------------------------
+
+This project include 5 files:
+program.c  ----- a C sourcecode for the project
+makefile   ----- a makefile can build all the project
+output     ----- a file contains the application output log info
+program    ----- a executable file 
+program.o  ----- a object file
+TECH_REPORT----- a technical report for explain the detail of the project
+tmp	  ----- a temp file is created during the program is running for measure the I/O time
+
+Build the project:
+make program
+
+Run the project:
+./program
+
+This project is tested under Linux rosie 2.6.32-38-generic #83-Ubuntu SMP Wed Jan 4 11:13:04 UTC 2012 i686 GNU/Linux.
+
+

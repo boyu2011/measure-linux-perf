@@ -1,0 +1,177 @@
+------------------------------------------------------------------------
+			TECH_REPORT
+						Written by BoYu
+						boyu2011@gmail.com
+------------------------------------------------------------------------
+
+1. Introduction
+
+This project estimate the following aspects of system performance: Context switching time, Process creation time, Process switching time, Thread creation time, Thread switching time,Different types of random I/O. This progrm is written by C programming language.
+
+
+2. Context switching time
+
+Switching the CPU to another process requires performing a state save of the current process and a state restore of a different process.This task is known as a context switch. I wrote a function named EstimateContextSwitchTime() to estimate the context switch time. 
+
+2.1 Stragegy
+
+		main()
+		  |
+	    gettimeofday()
+		  |
+	call sleep(0), invoke into the kernel and execute context switch
+                  |
+            gettimeofday()
+		  |
+	      PrintTime()
+		  |
+		 END
+
+2.2 Performance and data
+
+The program executes the stragegy for ten times. The average is 0.000001. The standard deviation is 3.16228E-07.
+
+
+3. Process creation time
+
+3.1 Stragegy
+	
+		gettimeofday ()
+		    |
+		  fork()
+		    |
+	  ---------------------
+	  |                   |
+    child process	parent process
+	  |		      |
+    gettimeofday()	      |
+	  |		      |	 
+    estimate/print time	      |
+	  |                   |
+	  -----------------wait()
+			      |
+			     END
+
+3.2 Performance and data
+
+This function also executes for ten times. The average is 0.0020846. The standard deviation is 0.002401035.
+
+
+4. Process switch time
+
+4.1 Stragegy
+
+		vfork()
+		  |
+	---------------------
+	|		    |
+     child process	parent process
+	|		    |
+     gettimeofday()         |
+        |		    |
+      exit(0)		    |
+        |		    |
+	------------------wait()
+                            |
+		       gettimeofday()
+			    |
+         	     estimate/print time
+			    |
+			   END
+	
+4.2 Performance and data anlysis
+
+The function has executed for ten times. The average is 0.0000787. The standard deviation is 0.000214822.
+
+
+5. Thread creation time
+
+This function is implemented by the routine of EstimateThreadCreationTime().
+
+5.1 Stragegy
+		   
+		   main()
+		     |
+            	gettimeofday()
+		     |
+		pthread_create()
+		     |
+                     ---------------------		
+	   	     |		       	 |
+		     |               new thread
+	   	     |		         |
+                     |              gettimeofday()
+		     |			 | 
+		     |	            estimate/print the time
+		     |			 |
+		pthread_join()------------
+		     |
+		    END
+
+5.2 Performance and data anlysis
+
+This function is executed for ten ten times. The average is 0.0048542. The standard deviation is 0.001287293.
+
+
+6. Thread switch time
+
+This function is implemented by the routine of EstimateThreadSwitchTime().
+
+6.1 Stragegy
+
+		   main()
+		     |
+		pthread_create()----------
+		     |			 |
+            	gettimeofday()      new thread
+                     |                   |
+		pthread_join()------------
+		     |
+		gettimeofday()
+		     |
+		estimate/print time
+		     |
+		    END
+
+6.2 Performance and data anlysis
+
+This function is executed for ten times. The average is 0.002318. the standard deviation is 0.000802515.
+
+
+7. Different I/O time.
+
+7.1 Stragegy
+
+		main()
+		  |
+		open()
+		  |
+		gettimeofday()
+                  |
+		write()
+                  |
+		gettimeofday()
+		  |
+		estimate/print time
+		  |
+		close()
+		  |
+		open()
+		  |
+		gettimeofday()
+		  |
+		read()
+		  |
+		gettimeofday()
+		  |
+		estimate/print time
+		  |
+		close()
+		  |
+		END
+
+7.2 Performance and data anlysis
+
+This function is executed for ten times. The average of Write IO operation is 0.0009955. The standard deviation of Write is 1.53786E-05. The average of Read IO operation is 0.0000037. The standard deviation of Read is 2.21359E-06.
+
+

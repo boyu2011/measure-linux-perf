@@ -1,0 +1,971 @@
+---------------------------------------------------------
+    Estimate Context Switch Time
+---------------------------------------------------------
+
+Estimate the context switch time for the 1th time
+Estimate the Context Switching Time = 0.000001
+
+Estimate the context switch time for the 2th time
+Estimate the Context Switching Time = 0.000000
+
+Estimate the context switch time for the 3th time
+Estimate the Context Switching Time = 0.000001
+
+Estimate the context switch time for the 4th time
+Estimate the Context Switching Time = 0.000001
+
+Estimate the context switch time for the 5th time
+Estimate the Context Switching Time = 0.000001
+
+Estimate the context switch time for the 6th time
+Estimate the Context Switching Time = 0.000001
+
+Estimate the context switch time for the 7th time
+Estimate the Context Switching Time = 0.000000
+
+Estimate the context switch time for the 8th time
+Estimate the Context Switching Time = 0.000001
+
+Estimate the context switch time for the 9th time
+Estimate the Context Switching Time = 0.000001
+
+Estimate the context switch time for the 10th time
+Estimate the Context Switching Time = 0.000001
+
+[Print Diagram]
+Each '#' is about 0.0000001sec.
+[ 1st time]#########
+[ 2st time]####
+[ 3st time]#########
+[ 4st time]#########
+[ 5st time]#########
+[ 6st time]#########
+[ 7st time]####
+[ 8st time]#########
+[ 9st time]##########
+[10st time]#####
+
+---------------------------------------------------------
+    Estimate Process Creation Time
+---------------------------------------------------------
+
+Create a child process for the 1st time.
+Estimate the Process Creation Time = 0.004690
+
+Create a child process for the 2st time.
+Estimate the Process Creation Time = 0.000093
+
+Create a child process for the 3st time.
+Estimate the Process Creation Time = 0.003838
+
+Create a child process for the 4st time.
+Estimate the Process Creation Time = 0.000096
+
+Create a child process for the 5st time.
+Estimate the Process Creation Time = 0.004021
+
+Create a child process for the 6st time.
+Estimate the Process Creation Time = 0.000341
+
+Create a child process for the 7st time.
+Estimate the Process Creation Time = 0.003390
+
+Create a child process for the 8st time.
+Estimate the Process Creation Time = 0.000099
+
+Create a child process for the 9st time.
+Estimate the Process Creation Time = 0.003823
+
+Create a child process for the 10st time.
+Estimate the Process Creation Time = 0.000113
+
+[Print Diagram]
+Each '#' is about 0.0001sec.
+[ 1st time]##############################################
+[ 2st time]
+[ 3st time]######################################
+[ 4st time]
+[ 5st time]########################################
+[ 6st time]###
+[ 7st time]#################################
+[ 8st time]
+[ 9st time]######################################
+[10st time]#
+
+---------------------------------------------------------
+    Estimate Procss Switching Time
+---------------------------------------------------------
+
+Create a child process for the 1st time.
+Estimate the Process Switching Time from child to parent = 0.000712
+
+Create a child process for the 2st time.
+Estimate the Process Switching Time from child to parent = 0.000015
+
+Create a child process for the 3st time.
+Estimate the Process Switching Time from child to parent = 0.000010
+
+Create a child process for the 4st time.
+Estimate the Process Switching Time from child to parent = 0.000009
+
+Create a child process for the 5st time.
+Estimate the Process Switching Time from child to parent = 0.000009
+
+Create a child process for the 6st time.
+Estimate the Process Switching Time from child to parent = 0.000009
+
+Create a child process for the 7st time.
+Estimate the Process Switching Time from child to parent = 0.000008
+
+Create a child process for the 8st time.
+Estimate the Process Switching Time from child to parent = 0.000011
+
+Create a child process for the 9st time.
+Estimate the Process Switching Time from child to parent = 0.000009
+
+Create a child process for the 10st time.
+Estimate the Process Switching Time from child to parent = 0.000021
+
+[Print Diagram]
+Each '#' is about 0.000001sec.
+[ 1st time]########################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################
+[ 2st time]##############
+[ 3st time]#########
+[ 4st time]########
+[ 5st time]########
+[ 6st time]########
+[ 7st time]########
+[ 8st time]##########
+[ 9st time]#########
+[10st time]#####################
+
+---------------------------------------------------------
+    Estimate Thread Creation Time
+---------------------------------------------------------
+
+Create a new thread for the 1st time.
+Estimate the Thread Creation Time = 0.004002
+
+Create a new thread for the 2st time.
+Estimate the Thread Creation Time = 0.005802
+
+Create a new thread for the 3st time.
+Estimate the Thread Creation Time = 0.005743
+
+Create a new thread for the 4st time.
+Estimate the Thread Creation Time = 0.005869
+
+Create a new thread for the 5st time.
+Estimate the Thread Creation Time = 0.005917
+
+Create a new thread for the 6st time.
+Estimate the Thread Creation Time = 0.005948
+
+Create a new thread for the 7st time.
+Estimate the Thread Creation Time = 0.005922
+
+Create a new thread for the 8st time.
+Estimate the Thread Creation Time = 0.005946
+
+Create a new thread for the 9st time.
+Estimate the Thread Creation Time = 0.005862
+
+Create a new thread for the 10st time.
+Estimate the Thread Creation Time = 0.005895
+
+[Print Diagram]
+Each '#' is about 0.0001sec.
+[ 1st time]########################################
+[ 2st time]##########################################################
+[ 3st time]#########################################################
+[ 4st time]##########################################################
+[ 5st time]###########################################################
+[ 6st time]###########################################################
+[ 7st time]###########################################################
+[ 8st time]###########################################################
+[ 9st time]##########################################################
+[10st time]##########################################################
+
+---------------------------------------------------------
+    Estimate Thread Switch Time
+---------------------------------------------------------
+
+Create a new thread for the 1th time.
+Estimate the Thread Switch Time = 0.001614
+
+Create a new thread for the 2th time.
+Estimate the Thread Switch Time = 0.000938
+
+Create a new thread for the 3th time.
+Estimate the Thread Switch Time = 0.002726
+
+Create a new thread for the 4th time.
+Estimate the Thread Switch Time = 0.002831
+
+Create a new thread for the 5th time.
+Estimate the Thread Switch Time = 0.002492
+
+Create a new thread for the 6th time.
+Estimate the Thread Switch Time = 0.003164
+
+Create a new thread for the 7th time.
+Estimate the Thread Switch Time = 0.001558
+
+Create a new thread for the 8th time.
+Estimate the Thread Switch Time = 0.001992
+
+Create a new thread for the 9th time.
+Estimate the Thread Switch Time = 0.001882
+
+Create a new thread for the 10th time.
+Estimate the Thread Switch Time = 0.001561
+
+[Print Diagram]
+Each '#' is about 0.0001sec.
+[ 1st time]################
+[ 2st time]#########
+[ 3st time]###########################
+[ 4st time]############################
+[ 5st time]########################
+[ 6st time]###############################
+[ 7st time]###############
+[ 8st time]###################
+[ 9st time]##################
+[10st time]###############
+
+---------------------------------------------------------
+    Estimate Disk Bandwidth with IO Time
+---------------------------------------------------------
+
+Wrote a string "abcde" to a file for the 1st time.
+Estimate the Disk Bandwith IO Time = 0.000973
+
+Wrote a string "abcde" to a file for the 2st time.
+Estimate the Disk Bandwith IO Time = 0.000981
+
+Wrote a string "abcde" to a file for the 3st time.
+Estimate the Disk Bandwith IO Time = 0.001001
+
+Wrote a string "abcde" to a file for the 4st time.
+Estimate the Disk Bandwith IO Time = 0.000932
+
+Wrote a string "abcde" to a file for the 5st time.
+Estimate the Disk Bandwith IO Time = 0.000974
+
+Wrote a string "abcde" to a file for the 6st time.
+Estimate the Disk Bandwith IO Time = 0.000980
+
+Wrote a string "abcde" to a file for the 7st time.
+Estimate the Disk Bandwith IO Time = 0.000987
+
+Wrote a string "abcde" to a file for the 8st time.
+Estimate the Disk Bandwith IO Time = 0.001004
+
+Wrote a string "abcde" to a file for the 9st time.
+Estimate the Disk Bandwith IO Time = 0.000981
+
+Wrote a string "abcde" to a file for the 10st time.
+Estimate the Disk Bandwith IO Time = 0.001011
+
+[Print Diagram]
+Each '#' is about 0.00001sec.
+[ 1st time]#################################################################################################
+[ 2st time]##################################################################################################
+[ 3st time]####################################################################################################
+[ 4st time]#############################################################################################
+[ 5st time]#################################################################################################
+[ 6st time]##################################################################################################
+[ 7st time]##################################################################################################
+[ 8st time]####################################################################################################
+[ 9st time]##################################################################################################
+[10st time]#####################################################################################################
+
+
+Read a string "abcde" from a file for the 1st time.
+Estimate the Disk Bandwith IO Time = 0.000010
+
+Read a string "abcde" from a file for the 2st time.
+Estimate the Disk Bandwith IO Time = 0.000004
+
+Read a string "abcde" from a file for the 3st time.
+Estimate the Disk Bandwith IO Time = 0.000003
+
+Read a string "abcde" from a file for the 4st time.
+Estimate the Disk Bandwith IO Time = 0.000003
+
+Read a string "abcde" from a file for the 5st time.
+Estimate the Disk Bandwith IO Time = 0.000003
+
+Read a string "abcde" from a file for the 6st time.
+Estimate the Disk Bandwith IO Time = 0.000004
+
+Read a string "abcde" from a file for the 7st time.
+Estimate the Disk Bandwith IO Time = 0.000003
+
+Read a string "abcde" from a file for the 8st time.
+Estimate the Disk Bandwith IO Time = 0.000003
+
+Read a string "abcde" from a file for the 9st time.
+Estimate the Disk Bandwith IO Time = 0.000003
+
+Read a string "abcde" from a file for the 10st time.
+Estimate the Disk Bandwith IO Time = 0.000003
+
+[Print Diagram]
+Each '#' is about 0.000001sec.
+[ 1st time]##########
+[ 2st time]###
+[ 3st time]##
+[ 4st time]##
+[ 5st time]###
+[ 6st time]###
+[ 7st time]##
+[ 8st time]##
+[ 9st time]##
+[10st time]##
+
+---------------------------------------------------------
+    Estimate Context Switch Time
+---------------------------------------------------------
+
+Estimate the context switch time for the 1th time
+Estimate the Context Switching Time = 0.000001
+
+Estimate the context switch time for the 2th time
+Estimate the Context Switching Time = 0.000000
+
+Estimate the context switch time for the 3th time
+Estimate the Context Switching Time = 0.000001
+
+Estimate the context switch time for the 4th time
+Estimate the Context Switching Time = 0.000001
+
+Estimate the context switch time for the 5th time
+Estimate the Context Switching Time = 0.000001
+
+Estimate the context switch time for the 6th time
+Estimate the Context Switching Time = 0.000001
+
+Estimate the context switch time for the 7th time
+Estimate the Context Switching Time = 0.000000
+
+Estimate the context switch time for the 8th time
+Estimate the Context Switching Time = 0.000001
+
+Estimate the context switch time for the 9th time
+Estimate the Context Switching Time = 0.000001
+
+Estimate the context switch time for the 10th time
+Estimate the Context Switching Time = 0.000001
+
+[Print Diagram]
+Each '#' is about 0.0000001sec.
+[ 1st time]#########
+[ 2st time]####
+[ 3st time]#########
+[ 4st time]#########
+[ 5st time]#########
+[ 6st time]#########
+[ 7st time]####
+[ 8st time]#########
+[ 9st time]##########
+[10st time]#####
+
+---------------------------------------------------------
+    Estimate Process Creation Time
+---------------------------------------------------------
+
+Create a child process for the 1st time.
+Estimate the Process Creation Time = 0.004690
+
+Create a child process for the 2st time.
+Estimate the Process Creation Time = 0.000093
+
+Create a child process for the 3st time.
+Estimate the Process Creation Time = 0.003838
+
+Create a child process for the 4st time.
+Estimate the Process Creation Time = 0.000096
+
+Create a child process for the 5st time.
+Estimate the Process Creation Time = 0.004021
+
+Create a child process for the 6st time.
+Estimate the Process Creation Time = 0.000341
+
+Create a child process for the 7st time.
+Estimate the Process Creation Time = 0.003390
+
+Create a child process for the 8st time.
+Estimate the Process Creation Time = 0.000099
+
+Create a child process for the 9st time.
+Estimate the Process Creation Time = 0.003823
+
+---------------------------------------------------------
+    Estimate Context Switch Time
+---------------------------------------------------------
+
+Estimate the context switch time for the 1th time
+Estimate the Context Switching Time = 0.000001
+
+Estimate the context switch time for the 2th time
+Estimate the Context Switching Time = 0.000000
+
+Estimate the context switch time for the 3th time
+Estimate the Context Switching Time = 0.000001
+
+Estimate the context switch time for the 4th time
+Estimate the Context Switching Time = 0.000001
+
+Estimate the context switch time for the 5th time
+Estimate the Context Switching Time = 0.000001
+
+Estimate the context switch time for the 6th time
+Estimate the Context Switching Time = 0.000001
+
+Estimate the context switch time for the 7th time
+Estimate the Context Switching Time = 0.000000
+
+Estimate the context switch time for the 8th time
+Estimate the Context Switching Time = 0.000001
+
+Estimate the context switch time for the 9th time
+Estimate the Context Switching Time = 0.000001
+
+Estimate the context switch time for the 10th time
+Estimate the Context Switching Time = 0.000001
+
+[Print Diagram]
+Each '#' is about 0.0000001sec.
+[ 1st time]#########
+[ 2st time]####
+[ 3st time]#########
+[ 4st time]#########
+[ 5st time]#########
+[ 6st time]#########
+[ 7st time]####
+[ 8st time]#########
+[ 9st time]##########
+[10st time]#####
+
+---------------------------------------------------------
+    Estimate Process Creation Time
+---------------------------------------------------------
+
+Create a child process for the 1st time.
+Estimate the Process Creation Time = 0.004690
+
+Create a child process for the 2st time.
+Estimate the Process Creation Time = 0.000093
+
+Create a child process for the 3st time.
+Estimate the Process Creation Time = 0.003838
+
+Create a child process for the 4st time.
+Estimate the Process Creation Time = 0.000096
+
+Create a child process for the 5st time.
+Estimate the Process Creation Time = 0.004021
+
+Create a child process for the 6st time.
+Estimate the Process Creation Time = 0.000341
+
+Create a child process for the 7st time.
+Estimate the Process Creation Time = 0.003390
+
+Create a child process for the 8st time.
+Estimate the Process Creation Time = 0.000099
+
+---------------------------------------------------------
+    Estimate Context Switch Time
+---------------------------------------------------------
+
+Estimate the context switch time for the 1th time
+Estimate the Context Switching Time = 0.000001
+
+Estimate the context switch time for the 2th time
+Estimate the Context Switching Time = 0.000000
+
+Estimate the context switch time for the 3th time
+Estimate the Context Switching Time = 0.000001
+
+Estimate the context switch time for the 4th time
+Estimate the Context Switching Time = 0.000001
+
+Estimate the context switch time for the 5th time
+Estimate the Context Switching Time = 0.000001
+
+Estimate the context switch time for the 6th time
+Estimate the Context Switching Time = 0.000001
+
+Estimate the context switch time for the 7th time
+Estimate the Context Switching Time = 0.000000
+
+Estimate the context switch time for the 8th time
+Estimate the Context Switching Time = 0.000001
+
+Estimate the context switch time for the 9th time
+Estimate the Context Switching Time = 0.000001
+
+Estimate the context switch time for the 10th time
+Estimate the Context Switching Time = 0.000001
+
+[Print Diagram]
+Each '#' is about 0.0000001sec.
+[ 1st time]#########
+[ 2st time]####
+[ 3st time]#########
+[ 4st time]#########
+[ 5st time]#########
+[ 6st time]#########
+[ 7st time]####
+[ 8st time]#########
+[ 9st time]##########
+[10st time]#####
+
+---------------------------------------------------------
+    Estimate Process Creation Time
+---------------------------------------------------------
+
+Create a child process for the 1st time.
+Estimate the Process Creation Time = 0.004690
+
+Create a child process for the 2st time.
+Estimate the Process Creation Time = 0.000093
+
+Create a child process for the 3st time.
+Estimate the Process Creation Time = 0.003838
+
+Create a child process for the 4st time.
+Estimate the Process Creation Time = 0.000096
+
+Create a child process for the 5st time.
+Estimate the Process Creation Time = 0.004021
+
+Create a child process for the 6st time.
+Estimate the Process Creation Time = 0.000341
+
+Create a child process for the 7st time.
+Estimate the Process Creation Time = 0.003390
+
+---------------------------------------------------------
+    Estimate Context Switch Time
+---------------------------------------------------------
+
+Estimate the context switch time for the 1th time
+Estimate the Context Switching Time = 0.000001
+
+Estimate the context switch time for the 2th time
+Estimate the Context Switching Time = 0.000000
+
+Estimate the context switch time for the 3th time
+Estimate the Context Switching Time = 0.000001
+
+Estimate the context switch time for the 4th time
+Estimate the Context Switching Time = 0.000001
+
+Estimate the context switch time for the 5th time
+Estimate the Context Switching Time = 0.000001
+
+Estimate the context switch time for the 6th time
+Estimate the Context Switching Time = 0.000001
+
+Estimate the context switch time for the 7th time
+Estimate the Context Switching Time = 0.000000
+
+Estimate the context switch time for the 8th time
+Estimate the Context Switching Time = 0.000001
+
+Estimate the context switch time for the 9th time
+Estimate the Context Switching Time = 0.000001
+
+Estimate the context switch time for the 10th time
+Estimate the Context Switching Time = 0.000001
+
+[Print Diagram]
+Each '#' is about 0.0000001sec.
+[ 1st time]#########
+[ 2st time]####
+[ 3st time]#########
+[ 4st time]#########
+[ 5st time]#########
+[ 6st time]#########
+[ 7st time]####
+[ 8st time]#########
+[ 9st time]##########
+[10st time]#####
+
+---------------------------------------------------------
+    Estimate Process Creation Time
+---------------------------------------------------------
+
+Create a child process for the 1st time.
+Estimate the Process Creation Time = 0.004690
+
+Create a child process for the 2st time.
+Estimate the Process Creation Time = 0.000093
+
+Create a child process for the 3st time.
+Estimate the Process Creation Time = 0.003838
+
+Create a child process for the 4st time.
+Estimate the Process Creation Time = 0.000096
+
+Create a child process for the 5st time.
+Estimate the Process Creation Time = 0.004021
+
+Create a child process for the 6st time.
+Estimate the Process Creation Time = 0.000341
+
+---------------------------------------------------------
+    Estimate Context Switch Time
+---------------------------------------------------------
+
+Estimate the context switch time for the 1th time
+Estimate the Context Switching Time = 0.000001
+
+Estimate the context switch time for the 2th time
+Estimate the Context Switching Time = 0.000000
+
+Estimate the context switch time for the 3th time
+Estimate the Context Switching Time = 0.000001
+
+Estimate the context switch time for the 4th time
+Estimate the Context Switching Time = 0.000001
+
+Estimate the context switch time for the 5th time
+Estimate the Context Switching Time = 0.000001
+
+Estimate the context switch time for the 6th time
+Estimate the Context Switching Time = 0.000001
+
+Estimate the context switch time for the 7th time
+Estimate the Context Switching Time = 0.000000
+
+Estimate the context switch time for the 8th time
+Estimate the Context Switching Time = 0.000001
+
+Estimate the context switch time for the 9th time
+Estimate the Context Switching Time = 0.000001
+
+Estimate the context switch time for the 10th time
+Estimate the Context Switching Time = 0.000001
+
+[Print Diagram]
+Each '#' is about 0.0000001sec.
+[ 1st time]#########
+[ 2st time]####
+[ 3st time]#########
+[ 4st time]#########
+[ 5st time]#########
+[ 6st time]#########
+[ 7st time]####
+[ 8st time]#########
+[ 9st time]##########
+[10st time]#####
+
+---------------------------------------------------------
+    Estimate Process Creation Time
+---------------------------------------------------------
+
+Create a child process for the 1st time.
+Estimate the Process Creation Time = 0.004690
+
+Create a child process for the 2st time.
+Estimate the Process Creation Time = 0.000093
+
+Create a child process for the 3st time.
+Estimate the Process Creation Time = 0.003838
+
+Create a child process for the 4st time.
+Estimate the Process Creation Time = 0.000096
+
+Create a child process for the 5st time.
+Estimate the Process Creation Time = 0.004021
+
+---------------------------------------------------------
+    Estimate Context Switch Time
+---------------------------------------------------------
+
+Estimate the context switch time for the 1th time
+Estimate the Context Switching Time = 0.000001
+
+Estimate the context switch time for the 2th time
+Estimate the Context Switching Time = 0.000000
+
+Estimate the context switch time for the 3th time
+Estimate the Context Switching Time = 0.000001
+
+Estimate the context switch time for the 4th time
+Estimate the Context Switching Time = 0.000001
+
+Estimate the context switch time for the 5th time
+Estimate the Context Switching Time = 0.000001
+
+Estimate the context switch time for the 6th time
+Estimate the Context Switching Time = 0.000001
+
+Estimate the context switch time for the 7th time
+Estimate the Context Switching Time = 0.000000
+
+Estimate the context switch time for the 8th time
+Estimate the Context Switching Time = 0.000001
+
+Estimate the context switch time for the 9th time
+Estimate the Context Switching Time = 0.000001
+
+Estimate the context switch time for the 10th time
+Estimate the Context Switching Time = 0.000001
+
+[Print Diagram]
+Each '#' is about 0.0000001sec.
+[ 1st time]#########
+[ 2st time]####
+[ 3st time]#########
+[ 4st time]#########
+[ 5st time]#########
+[ 6st time]#########
+[ 7st time]####
+[ 8st time]#########
+[ 9st time]##########
+[10st time]#####
+
+---------------------------------------------------------
+    Estimate Process Creation Time
+---------------------------------------------------------
+
+Create a child process for the 1st time.
+Estimate the Process Creation Time = 0.004690
+
+Create a child process for the 2st time.
+Estimate the Process Creation Time = 0.000093
+
+Create a child process for the 3st time.
+Estimate the Process Creation Time = 0.003838
+
+Create a child process for the 4st time.
+Estimate the Process Creation Time = 0.000096
+
+---------------------------------------------------------
+    Estimate Context Switch Time
+---------------------------------------------------------
+
+Estimate the context switch time for the 1th time
+Estimate the Context Switching Time = 0.000001
+
+Estimate the context switch time for the 2th time
+Estimate the Context Switching Time = 0.000000
+
+Estimate the context switch time for the 3th time
+Estimate the Context Switching Time = 0.000001
+
+Estimate the context switch time for the 4th time
+Estimate the Context Switching Time = 0.000001
+
+Estimate the context switch time for the 5th time
+Estimate the Context Switching Time = 0.000001
+
+Estimate the context switch time for the 6th time
+Estimate the Context Switching Time = 0.000001
+
+Estimate the context switch time for the 7th time
+Estimate the Context Switching Time = 0.000000
+
+Estimate the context switch time for the 8th time
+Estimate the Context Switching Time = 0.000001
+
+Estimate the context switch time for the 9th time
+Estimate the Context Switching Time = 0.000001
+
+Estimate the context switch time for the 10th time
+Estimate the Context Switching Time = 0.000001
+
+[Print Diagram]
+Each '#' is about 0.0000001sec.
+[ 1st time]#########
+[ 2st time]####
+[ 3st time]#########
+[ 4st time]#########
+[ 5st time]#########
+[ 6st time]#########
+[ 7st time]####
+[ 8st time]#########
+[ 9st time]##########
+[10st time]#####
+
+---------------------------------------------------------
+    Estimate Process Creation Time
+---------------------------------------------------------
+
+Create a child process for the 1st time.
+Estimate the Process Creation Time = 0.004690
+
+Create a child process for the 2st time.
+Estimate the Process Creation Time = 0.000093
+
+Create a child process for the 3st time.
+Estimate the Process Creation Time = 0.003838
+
+---------------------------------------------------------
+    Estimate Context Switch Time
+---------------------------------------------------------
+
+Estimate the context switch time for the 1th time
+Estimate the Context Switching Time = 0.000001
+
+Estimate the context switch time for the 2th time
+Estimate the Context Switching Time = 0.000000
+
+Estimate the context switch time for the 3th time
+Estimate the Context Switching Time = 0.000001
+
+Estimate the context switch time for the 4th time
+Estimate the Context Switching Time = 0.000001
+
+Estimate the context switch time for the 5th time
+Estimate the Context Switching Time = 0.000001
+
+Estimate the context switch time for the 6th time
+Estimate the Context Switching Time = 0.000001
+
+Estimate the context switch time for the 7th time
+Estimate the Context Switching Time = 0.000000
+
+Estimate the context switch time for the 8th time
+Estimate the Context Switching Time = 0.000001
+
+Estimate the context switch time for the 9th time
+Estimate the Context Switching Time = 0.000001
+
+Estimate the context switch time for the 10th time
+Estimate the Context Switching Time = 0.000001
+
+[Print Diagram]
+Each '#' is about 0.0000001sec.
+[ 1st time]#########
+[ 2st time]####
+[ 3st time]#########
+[ 4st time]#########
+[ 5st time]#########
+[ 6st time]#########
+[ 7st time]####
+[ 8st time]#########
+[ 9st time]##########
+[10st time]#####
+
+---------------------------------------------------------
+    Estimate Process Creation Time
+---------------------------------------------------------
+
+Create a child process for the 1st time.
+Estimate the Process Creation Time = 0.004690
+
+Create a child process for the 2st time.
+Estimate the Process Creation Time = 0.000093
+
+---------------------------------------------------------
+    Estimate Context Switch Time
+---------------------------------------------------------
+
+Estimate the context switch time for the 1th time
+Estimate the Context Switching Time = 0.000001
+
+Estimate the context switch time for the 2th time
+Estimate the Context Switching Time = 0.000000
+
+Estimate the context switch time for the 3th time
+Estimate the Context Switching Time = 0.000001
+
+Estimate the context switch time for the 4th time
+Estimate the Context Switching Time = 0.000001
+
+Estimate the context switch time for the 5th time
+Estimate the Context Switching Time = 0.000001
+
+Estimate the context switch time for the 6th time
+Estimate the Context Switching Time = 0.000001
+
+Estimate the context switch time for the 7th time
+Estimate the Context Switching Time = 0.000000
+
+Estimate the context switch time for the 8th time
+Estimate the Context Switching Time = 0.000001
+
+Estimate the context switch time for the 9th time
+Estimate the Context Switching Time = 0.000001
+
+Estimate the context switch time for the 10th time
+Estimate the Context Switching Time = 0.000001
+
+[Print Diagram]
+Each '#' is about 0.0000001sec.
+[ 1st time]#########
+[ 2st time]####
+[ 3st time]#########
+[ 4st time]#########
+[ 5st time]#########
+[ 6st time]#########
+[ 7st time]####
+[ 8st time]#########
+[ 9st time]##########
+[10st time]#####
+
+---------------------------------------------------------
+    Estimate Process Creation Time
+---------------------------------------------------------
+
+Create a child process for the 1st time.
+Estimate the Process Creation Time = 0.004690
+
+---------------------------------------------------------
+    Estimate Context Switch Time
+---------------------------------------------------------
+
+Estimate the context switch time for the 1th time
+Estimate the Context Switching Time = 0.000001
+
+Estimate the context switch time for the 2th time
+Estimate the Context Switching Time = 0.000000
+
+Estimate the context switch time for the 3th time
+Estimate the Context Switching Time = 0.000001
+
+Estimate the context switch time for the 4th time
+Estimate the Context Switching Time = 0.000001
+
+Estimate the context switch time for the 5th time
+Estimate the Context Switching Time = 0.000001
+
+Estimate the context switch time for the 6th time
+Estimate the Context Switching Time = 0.000001
+
+Estimate the context switch time for the 7th time
+Estimate the Context Switching Time = 0.000000
+
+Estimate the context switch time for the 8th time
+Estimate the Context Switching Time = 0.000001
+
+Estimate the context switch time for the 9th time
+Estimate the Context Switching Time = 0.000001
+
+Estimate the context switch time for the 10th time
+Estimate the Context Switching Time = 0.000001
+
+[Print Diagram]
+Each '#' is about 0.0000001sec.
+[ 1st time]#########
+[ 2st time]####
+[ 3st time]#########
+[ 4st time]#########
+[ 5st time]#########
+[ 6st time]#########
+[ 7st time]####
+[ 8st time]#########
+[ 9st time]##########
+[10st time]#####
+
+---------------------------------------------------------
+    Estimate Process Creation Time
+---------------------------------------------------------
+
